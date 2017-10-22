@@ -1,0 +1,67 @@
+.financing-page {
+	margin-right: 15%;
+	padding: 5%;
+	margin-top: 8%;
+	text-align: center;
+	background-image: url('../assets/images/financing.jpeg');
+	background-color: #ffc6af;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+	height: 100%;
+	width:  100%;
+}
+
+.financing-page h1{
+	font-family: helvetica, sans-serif;	
+	font-size: 40px;
+	color: black;
+	display: block;
+	margin-top: -4%;
+}
+
+
+.financing-page h3{
+	font-family: helvetica, sans-serif;	
+	font-weight: lighter;
+	font-size: 30px;
+	display: block;
+}
+
+.financing-page button{
+	border-radius: 25px;
+	background-color: lightsalmon;
+	border: 1px solid darksalmon;
+	font-size: 24px;
+	width: 258px;
+	height: 56px;
+}
+
+.financing-page button:hover{
+	background-color: #ffece4;
+	color: darksalmon;
+	border: 1px solid darksalmon;
+}
+
+.fin-text{
+	position: relative;
+	margin-right: 5%;
+	font-family: helvetica, sans-serif;	
+	padding: 5%;
+}
+
+.fin-form{
+	background-color: #F8FAFD;
+	border: 1px solid purple;
+	display: inline;
+	position: relative;
+	margin-right: 0;
+}
+
+.fin-text h1{
+	font-size: 28px;
+}
+
+.fin-text p{
+		font-family: helvetica, sans-serif;	
+}

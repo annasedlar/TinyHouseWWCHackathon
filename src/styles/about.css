@@ -1,0 +1,20 @@
+.about-side-bar{
+	height: 5%;
+	margin-top: 17%;
+	margin-left: 20%;
+	width: 8%;
+}
+
+.about-side-bar h1{
+	display: block;
+	text-align: right;
+}
+
+
+.about-page {
+	width:  70%;
+	float: right;
+	padding: 5%;
+	margin-top: 10%;
+	border-left: 1px solid black;
+}

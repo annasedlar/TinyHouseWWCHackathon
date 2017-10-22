@@ -1,0 +1,243 @@
+body {
+	background-color: #F8FAFD;
+	font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4 {
+	font-family: "Muli", sans-serif;
+}
+#hero {
+	height: 700px;
+	background: url('../assets/images/main.jpg') no-repeat center top;
+	background-size: cover;
+	margin-bottom: 20px;
+	text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);
+}
+.logo {
+	padding: 18px 0 17px;
+}
+
+.cta {
+	margin-top: 100px;
+}
+
+.cta button {
+	width: 275px;
+	height: 55px;
+	background-color: #DF8436;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+
+.cta h1{
+	width: 100%;
+	font-size: 46px;
+	line-height: 68px;
+	color: white;
+}
+.searchAndProfile {
+	position: absolute;
+	right: 8%;
+}
+
+.searchAndProfile .separator {
+	border-left:1px solid #eeeeee;
+	margin-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+nav {
+	font-size: 15px;
+	line-height: 22px;
+	font-family: muli, sans-serif;
+	text-transform: uppercase;
+}
+nav ul li {
+	padding: 0 27px;
+}
+nav ul li a {
+	color: white;
+}
+.navbar-toggler {
+	border-color: white;
+}
+#search {
+	background-color: #F8FAFD;	
+	background: #F8FAFD url('../assets/images/map-screenshot.png') no-repeat right center;
+	height: 400px;
+}
+.searchText {
+	padding-top: 112px;
+	text-align: center;
+}
+#search button {
+	width: 275px;
+	height: 55px;
+	background-color: #1ABC9C;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+#listings {
+	/* margin-top:  100px; */
+	padding: 110px 0px 130px 0px;
+	background-color: white;
+}
+
+#listings .card {
+	margin-right: 30px;
+}
+#listings .card:last-child {
+	margin-right: 0px;
+}
+#learnMore {
+	background-color: #8D708E;
+	color: white;
+		font-family: muli, sans-serif;	
+}
+
+#learnMore h2{
+	color: white;
+	font-family: muli, sans-serif;	
+}
+
+#learnMore div:nth-child(2) {
+	padding: 25px;
+	text-align: center;
+}
+#learnMore button {
+	width: 295px;
+	height: 55px;
+	background-color: #1ABC9C;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+
+#blog h2, #listings h2 {
+	line-height: 3em;
+}
+#blog {
+	padding: 50px 0;
+}
+.featBlog, .blog1, .blog2  {
+	border: 1px solid #ddd;
+	padding: 0;
+}
+.featBlog .container {
+	padding-top: 15px;
+}
+.featBlog .container p {
+	padding-bottom: 15px;
+}
+.blog1, .blog2 {
+	margin-bottom: 20px;
+}
+.blog2:last-child {
+	margin-bottom: 0px;
+}
+footer {
+	background-color: #3A3F4C;
+	color: white;
+	padding: 48px 0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: muli, sans-serif;	
+
+}
+footer nav {
+	font-size: 10px;
+	line-height: 16px;
+	font-family: muli, sans-serif;
+	font-weight: 'lighter';
+	text-transform: uppercase;
+	display: block;
+}
+footer nav ul li {
+	padding: 0 10px;
+}
+footer nav ul li a {
+	color: white;
+	font-size: 10px;
+}
+footer .terms {
+	font-size: 13px;
+}
+footer hr {
+	border-top: 1px solid white;
+	margin: 30px 0px;
+}
+footer .terms .rights {
+	position: relative;
+	left: 325px;
+}
+
+.rightfootnav{
+	position: absolute;
+	right: 5%;
+}
+
+.social-nav{
+	position: absolute;
+	right: 5%;
+	display: block;
+}
+
+.social-nav ul{
+	display: inline;
+	list-style-type: none;
+}
+
+.social-nav ul li{
+	display:  inline;
+}
+
+@media (max-width: 1200px) {
+	#listings .card {
+		width: 18rem !important;
+	}
+}
+
+
+@media (max-width: 991px) {
+	#search {
+		background-size: 50%;
+		background-position: right bottom;
+		height: 325px;
+	}
+	.searchText {
+		padding-top: 60px;
+	}
+	#listings .card {
+		width: 13rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.cta h1 {
+		font-size: 36px;
+		margin-top: 125px;
+	}
+	#listings .card {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	#listings .card:last-child {
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 575px) {
+	#hero {
+		height: 450px
+	}
+	.cta h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+}

@@ -1,0 +1,113 @@
+.row {
+  margin: 0;
+}
+.page {
+  margin-top: 115px;
+  padding-bottom: 2rem;
+}
+#hero {
+	height: 700px;
+	background: url('http://via.placeholder.com/1440x700') no-repeat center center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.cta h1 {
+	font-size: 46px;
+	line-height: 68px;
+	margin-top: 215px;
+}
+
+.cta button {
+	width: 275px;
+	height: 55px;
+	background-color: #DF8436;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+
+.tempBorder {
+	border: 1px solid black;
+}
+
+.searchAndProfile .separator {
+	border-left:1px solid #eeeeee;
+	margin-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+
+nav {
+	font-size: 15px;
+	line-height: 22px;
+	font-family: muli, sans-serif;
+}
+
+nav ul li {
+	padding: 0 27px;
+}
+
+#search {
+	background: #F8FAFD url('http://via.placeholder.com/476x446') no-repeat right center;
+  height: 446px;
+}
+
+.searchText {
+	padding-top: 112px;
+}
+#search button {
+	width: 275px;
+	height: 55px;
+	background-color: #1ABC9C;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+#search button a{
+	color: white;
+}
+.btn-primary {
+  background: #1ABC9C;
+  border: #1ABC9C;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+.btn-primary:hover {
+  background: rgb(14, 112, 93);
+  border: #1ABC9C;
+  cursor: pointer;
+}
+#listings {
+	margin-top 100px;
+	padding: 50px 0px;
+}
+#listings .card {
+  margin-right: 30px;
+  width: 20rem;
+}
+#listings .card:last-child {
+	margin-right: 0px;
+}
+#learnMore {
+	background-color: #8D708E;
+	color: white;
+}
+#learnMore button {
+	width: 295px;
+	height: 55px;
+	background-color: #1ABC9C;
+	margin: 0 auto;
+	color: white;
+	border-radius: 50px;
+	display: block;
+}
+.zoning-search .intro-text {
+  text-align: center;
+  padding: 0 2rem 1rem;
+}

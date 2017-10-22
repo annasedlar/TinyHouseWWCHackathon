@@ -1,0 +1,64 @@
+.navbar{
+  width: 100%;
+  background-color: rgba(255,255,255,0.95);.
+  font-size: 15px;
+  line-height: 22px;
+  font-family: muli, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(187, 188, 190);
+  height: 80px;
+
+}
+
+nav ul li a {
+  color: black;
+}
+
+.user{
+  height: 25px;
+  padding-right: 3px;
+}
+
+.logo{
+  width: 232px;
+  padding: 18px 0 17px;
+}
+
+input{
+  background-color: #F3F3F4;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 2rem;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  line-height: 60px;
+  background-color: #3A3F4C;
+  color: #fff;
+}
+.upper-footer {
+  justify-content: space-evenly;
+}
+.upper-footer .navbar-nav {
+  flex-direction: row;
+}
+.footer .nav-link a {
+  color: white;
+  padding: 1rem;
+}
+.social-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.social-nav .icon {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0.75rem;
+}
+.footer hr {
+  color: #fff; 
+}
