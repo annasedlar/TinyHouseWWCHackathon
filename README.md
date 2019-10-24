@@ -2,7 +2,7 @@
 
 See live preview here: [https://tiny-house-site.herokuapp.com/](https://tiny-house-site.herokuapp.com/)
 
-![Tiny Homes Site Preview](tinyhomes "Tiny Homes")
+![Tiny Homes Site Preview](tinyhomes.png "Tiny Homes")
 
 This web application is built by Tiny Home lovers, for Tiny Home lovers.
 
