@@ -3,7 +3,8 @@
 }
 .page {
   margin-top: 115px;
-  padding-bottom: 2rem;
+	padding-bottom: 2rem;
+	height: 500px;
 }
 #hero {
 	height: 700px;

@@ -6,6 +6,7 @@ import SearchBox from './searchBox';
 import MapWithAMarker from "./map";
 import '../styles/listings.css';
 
+
 export class ZoningSearch extends Component {
   static defaultProps = {
     center: {lat: 59.95, lng: 30.33},
@@ -13,9 +14,13 @@ export class ZoningSearch extends Component {
   };
 
   state = {
-    loading: true,
-    selectedState: 'Georgia',
-    selectedStateData: null
+    loading: false,
+    selectedState: `Georgia`,
+    selectedStateData: [
+      {CityName: `Atlanta`,
+       CountyName: `Dekalb`,
+       StandAlone: true},
+    ]
   }
 
   componentWillMount(props) {
@@ -41,7 +46,7 @@ export class ZoningSearch extends Component {
     // render loading when app is not ready
     if(this.state.loading) {
       return (
-        <div>
+        <div className="loading-box">
           Loading...
         </div>
       )
@@ -52,7 +57,7 @@ export class ZoningSearch extends Component {
         <SearchBox searchType="zoning-search" page="zoning" />  
         <div className="col-lg-8">
         <MapWithAMarker
-          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg&v=3.exp&libraries=geometry,drawing,places"
+          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjA3sDZ6HbyDYr7pCeHXoYWJW-qqKIR6Y&v=3.exp&libraries=geometry,drawing,places"
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div className="mapWrapper" />}
           mapElement={<div style={{ height: `100%` }} />}

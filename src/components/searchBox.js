@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import StateDropdown from './stateDropdown';
 
 class SearchBox extends Component {
+  handleOnSubmit() {
+    console.log('submitted!')
+  }
+  
   render() {
     return (
       <div className="col-lg-4 search-box">

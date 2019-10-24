@@ -23,11 +23,16 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route path="/homes" component={SearchContainer} />
       <Route path="/zoning" component={ZoningContainer} />
+      <Route path="/professionals" component={SearchContainer} />
       <Route path="/financing" component={Financing} />
       <Route path="/designbox" component={DesignBox} />
       <Route path="/about" component={About} />
       <Route path="/blog" component={Blog} />
-
+      <Route path="/ads" component={Blog} />
+      <Route path="/faq" component={Blog} />
+      <Route path="/reviews" component={Blog} />
+      <Route path="/contact" component={Blog} />
+      
       <Footer />
     </div>
   </Router>

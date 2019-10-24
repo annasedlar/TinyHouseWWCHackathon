@@ -3,6 +3,8 @@
 This web application is built by Tiny Home lovers, for Tiny Home lovers.
 See the designs here: [Invision App](https://invis.io/XDD3DF0H7)
 
+See live preview here: (https://tiny-house-site.herokuapp.com/)[https://tiny-house-site.herokuapp.com/]
+
 ### Prerequisites
 
 You'll need NodeJs to run this app.
