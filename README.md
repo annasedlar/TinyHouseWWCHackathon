@@ -3,7 +3,7 @@
 See live preview here: [https://tiny-house-site.herokuapp.com/](https://tiny-house-site.herokuapp.com/)
 
 <img src="./tiny_homes.png" alt="Tiny Homes Site"
-	title="Tiny Homes Website" width="300" />
+	title="Tiny Homes Website" width="600" />
 
 This web application is built by Tiny Home lovers, for Tiny Home lovers.
 
