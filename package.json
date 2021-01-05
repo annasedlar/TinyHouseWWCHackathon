@@ -4,7 +4,7 @@
   "homepage": "https://jenessawhite.gitlab.io/tiny-house-app",
   "private": true,
   "dependencies": {
-    "axios": "0.16.2",
+    "axios": "0.21.1",
     "express": "4.16.2",
     "mysql": "2.15.0",
     "prop-types": "15.6.0",
